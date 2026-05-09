@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 420" role="img" aria-labelledby="title desc">
+  <title id="title">Zenit Acupuntura e Bem-estar</title>
+  <desc id="desc">Símbolo circular com traço orgânico, flor de lótus e nome Zenit.</desc>
+  <defs>
+    <linearGradient id="mark" x1="80" y1="318" x2="328" y2="86" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#08696d"/>
+      <stop offset="0.55" stop-color="#2f8a87"/>
+      <stop offset="1" stop-color="#c8aa58"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="202" y1="88" x2="310" y2="198" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#e3ce85"/>
+      <stop offset="1" stop-color="#b89746"/>
+    </linearGradient>
+  </defs>
+  <rect width="420" height="420" rx="34" fill="#f7fbf8"/>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M115 285c-36-30-52-82-35-130 18-51 66-85 119-84" stroke="url(#mark)" stroke-width="10"/>
+    <path d="M304 139c23 45 12 104-29 137-45 37-111 37-156 0" stroke="url(#gold)" stroke-width="10"/>
+    <path d="M114 276c20-84 105-103 118-176" stroke="url(#mark)" stroke-width="11"/>
+    <path d="M112 188c29-42 83-13 116-79" stroke="#2f8a87" stroke-width="9"/>
+    <path d="M132 282c37 18 88 18 125-6" stroke="#2f8a87" stroke-width="9"/>
+    <path d="M216 101c-18-28-8-54 15-74 23 20 33 46 15 74" stroke="#2f8a87" stroke-width="9" fill="#f7fbf8"/>
+    <path d="M213 104c-34-5-50-26-51-57 31 1 53 16 59 48" stroke="#2f8a87" stroke-width="9" fill="#f7fbf8"/>
+    <path d="M249 95c6-32 28-47 59-48-1 31-17 52-51 57" stroke="#2f8a87" stroke-width="9" fill="#f7fbf8"/>
+    <path d="M188 119c21-18 48-20 63 4-27 15-48 15-63-4Z" stroke="#9f8d52" stroke-width="8" fill="#f7fbf8"/>
+    <path d="M276 119c-21-18-48-20-63 4 27 15 48 15 63-4Z" stroke="#9f8d52" stroke-width="8" fill="#f7fbf8"/>
+    <path d="M232 106v62" stroke="url(#gold)" stroke-width="9"/>
+  </g>
+  <circle cx="232" cy="91" r="14" fill="#fbf7df" stroke="#c8aa58" stroke-width="7"/>
+  <text x="210" y="357" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="58" letter-spacing="10" fill="#075a60">ZENIT</text>
+  <text x="210" y="386" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="22" fill="#697774">Acupuntura &amp; Bem-estar</text>
+</svg>

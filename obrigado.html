@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="pt-PT">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Obrigado | Zenit Acupuntura & Bem-estar</title>
+  <meta name="description" content="Obrigado pelo seu pedido de contacto à Zenit Acupuntura & Bem-estar.">
+  <meta name="robots" content="noindex, follow">
+  <meta name="theme-color" content="#f7f2e9">
+  <link rel="icon" href="assets/zenit-logo.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="thanks-page">
+  <main class="thanks-main">
+    <section class="thanks-card">
+      <img src="assets/zenit-logo.svg" alt="Zenit Acupuntura & Bem-estar" width="110" height="110">
+      <p class="eyebrow">Pedido recebido</p>
+      <h1>Obrigado. A Zenit entrará em contacto em breve.</h1>
+      <p>Esta página serve como ponto de conversão para Google Ads, Meta Ads e ferramentas de analytics. O próximo passo é finalizar o contacto pelo WhatsApp.</p>
+      <div class="hero-actions">
+        <a class="btn primary" id="btn-whatsapp-obrigado" href="https://api.whatsapp.com/send?phone=351000000000&text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20consulta%20na%20Zenit.">Continuar no WhatsApp</a>
+        <a class="btn secondary" id="btn-voltar-site" href="index.html">Voltar ao site</a>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    const whatsappUrl = sessionStorage.getItem("zenitLeadWhatsappUrl");
+    const whatsappButton = document.querySelector("#btn-whatsapp-obrigado");
+
+    if (whatsappUrl && whatsappButton) {
+      whatsappButton.href = whatsappUrl;
+    }
+  </script>
+</body>
+</html>
